@@ -1594,6 +1594,30 @@
         "runtime": {
           "bin/placeholder/Data.dll": {}
         }
+      },
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Data": "1.0.0",
+          "Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.dll": {}
+        }
       }
     }
   },
@@ -5937,12 +5961,23 @@
       "type": "project",
       "path": "../Data/Data.csproj",
       "msbuildProject": "../Data/Data.csproj"
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
+    },
+    "Service/1.0.0": {
+      "type": "project",
+      "path": "../Service/Service.csproj",
+      "msbuildProject": "../Service/Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Data >= 1.0.0",
-      "Microsoft.AspNetCore.Cors >= 2.2.0"
+      "Microsoft.AspNetCore.Cors >= 2.2.0",
+      "Model >= 1.0.0",
+      "Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5972,8 +6007,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Agustin\\Desktop\\PetShop\\PetShop-BackEnd\\PetShopBackEnd\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\Agustin\\Desktop\\PetShop\\PetShop-BackEnd\\PetShopBackEnd\\Data\\Data.csproj"
+            "C:\\Users\\Agustin\\Desktop\\PetShop\\PetShop-BackEnd\\PetShopBackEnd\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\Agustin\\Desktop\\PetShop\\PetShop-BackEnd\\PetShopBackEnd\\Model\\Model.csproj"
+            },
+            "C:\\Users\\Agustin\\Desktop\\PetShop\\PetShop-BackEnd\\PetShopBackEnd\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\Agustin\\Desktop\\PetShop\\PetShop-BackEnd\\PetShopBackEnd\\Service\\Service.csproj"
             }
           }
         }

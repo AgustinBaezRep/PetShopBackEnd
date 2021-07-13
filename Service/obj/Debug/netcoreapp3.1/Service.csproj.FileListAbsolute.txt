@@ -7,3 +7,8 @@ C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\obj\Debu
 C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
 C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\obj\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete

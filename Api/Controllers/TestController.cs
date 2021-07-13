@@ -1,10 +1,7 @@
 ﻿using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Service.Interfaces.ITest;
+using Service.Services.TestService;
 
 namespace Api.Controllers
 {
@@ -14,16 +11,18 @@ namespace Api.Controllers
 
     public class TestController : ControllerBase
     {
-        [HttpGet("GetTest")]
-        public ActionResult<Data.Context.Test> Get()
-        {
-            var ret = new List<Data.Context.Test>();
-            using (var ctx = new Data.Context.ecommerceContext())
-            {
-                ret = ctx.Tests.ToList();
-            }
+        private readonly ITest _testService;
 
-            return Ok(ret);
+        public TestController(ITest _testService)
+        {
+            this._testService = _testService;
+        }
+
+        // EndPoint : api/Test/GetTest
+        [HttpGet("GetTest")]
+        public ActionResult<Model.ViewModel.TestViewModel> Get()
+        {
+            return Ok(_testService.ObtenerTests());
         }
     }
 }
