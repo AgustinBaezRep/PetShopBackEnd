@@ -12,3 +12,5 @@ C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\bin\Debu
 C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\bin\Debug\netcoreapp3.1\Data.pdb
 C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\bin\Debug\netcoreapp3.1\Model.pdb
 C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Service\bin\Debug\netcoreapp3.1\Repository.pdb

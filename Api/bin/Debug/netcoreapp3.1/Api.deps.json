@@ -1430,10 +1430,23 @@
           "Model.dll": {}
         }
       },
-      "Service/1.0.0": {
+      "Repository/1.0.0": {
         "dependencies": {
           "Data": "1.0.0",
           "Model": "1.0.0"
+        },
+        "runtime": {
+          "Repository.dll": {}
+        },
+        "compile": {
+          "Repository.dll": {}
+        }
+      },
+      "Service/1.0.0": {
+        "dependencies": {
+          "Data": "1.0.0",
+          "Model": "1.0.0",
+          "Repository": "1.0.0"
         },
         "runtime": {
           "Service.dll": {}
@@ -3790,6 +3803,11 @@
       "sha512": ""
     },
     "Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

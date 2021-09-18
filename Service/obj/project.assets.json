@@ -1505,6 +1505,20 @@
         "runtime": {
           "bin/placeholder/Model.dll": {}
         }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Data": "1.0.0",
+          "Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
       }
     }
   },
@@ -5727,12 +5741,18 @@
       "type": "project",
       "path": "../Model/Model.csproj",
       "msbuildProject": "../Model/Model.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Data >= 1.0.0",
-      "Model >= 1.0.0"
+      "Model >= 1.0.0",
+      "Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5767,6 +5787,9 @@
             },
             "C:\\Users\\Agustin\\Desktop\\PetShop\\PetShop-BackEnd\\PetShopBackEnd\\Model\\Model.csproj": {
               "projectPath": "C:\\Users\\Agustin\\Desktop\\PetShop\\PetShop-BackEnd\\PetShopBackEnd\\Model\\Model.csproj"
+            },
+            "C:\\Users\\Agustin\\Desktop\\PetShop\\PetShop-BackEnd\\PetShopBackEnd\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\Agustin\\Desktop\\PetShop\\PetShop-BackEnd\\PetShopBackEnd\\Repository\\Repository.csproj"
             }
           }
         }

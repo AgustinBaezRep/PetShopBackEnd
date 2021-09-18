@@ -65,3 +65,5 @@ C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Api\bin\Debug\ne
 C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Api\bin\Debug\netcoreapp3.1\Service.dll
 C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Api\bin\Debug\netcoreapp3.1\Model.pdb
 C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Api\bin\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Api\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Agustin\Desktop\PetShop\PetShop-BackEnd\PetShopBackEnd\Api\bin\Debug\netcoreapp3.1\Repository.pdb

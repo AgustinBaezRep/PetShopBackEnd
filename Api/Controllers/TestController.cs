@@ -1,14 +1,13 @@
 ﻿using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using Service.Interfaces.ITest;
-using Service.Services.TestService;
+using Service.Interfaces;
+using Service.Services;
 
 namespace Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     [EnableCors("MyCors")]
-
     public class TestController : ControllerBase
     {
         private readonly ITest _testService;

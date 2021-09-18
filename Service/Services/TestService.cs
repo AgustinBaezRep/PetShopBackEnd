@@ -1,5 +1,5 @@
 ﻿using Data.Context;
-using Service.Interfaces.ITest;
+using Service.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +12,9 @@ namespace Service.Services.TestService
         public List<Model.ViewModel.TestViewModel> ObtenerTests()
         {
             var ret = new List<Model.ViewModel.TestViewModel>();
-            using (var ctx = new Data.Context.ecommerceContext())
+            using (var ctx = new ECommerceContext())
             {
-                ret = ctx.Tests.Select(t => new Model.ViewModel.TestViewModel()
+                ret = ctx.Test.Select(t => new Model.ViewModel.TestViewModel()
                 {
                     Id = t.Id,
                     Prueba = t.Prueba

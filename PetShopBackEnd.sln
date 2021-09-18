@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{543053DC-9086-464B-9221-44248F704010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{95E0ACD3-A548-444A-AED2-2CFDCC1421A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{95E0ACD3-A548-444A-AED2-2CFDCC1421A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{94F29DF3-2061-46D0-AD7D-CE29C1B8E55A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{94F29DF3-2061-46D0-AD7D-CE29C1B8E55A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{437FEE85-7658-45F4-86B2-62755811B4D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{437FEE85-7658-45F4-86B2-62755811B4D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{C607AA63-92B9-4861-B7F9-7C680BF28579}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{437FEE85-7658-45F4-86B2-62755811B4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{437FEE85-7658-45F4-86B2-62755811B4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{437FEE85-7658-45F4-86B2-62755811B4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C607AA63-92B9-4861-B7F9-7C680BF28579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C607AA63-92B9-4861-B7F9-7C680BF28579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C607AA63-92B9-4861-B7F9-7C680BF28579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C607AA63-92B9-4861-B7F9-7C680BF28579}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
